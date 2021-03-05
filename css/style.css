@@ -265,6 +265,7 @@ hr {
 
 /* CONTACT */
 #contact-article {
+    background: #e7e6e6;
     max-width: 100%;
     height: 100vh;
 }
@@ -276,9 +277,14 @@ hr {
 }
 
 .form {
-    border: 1px solid #111;
+    align-items: center;
+    background: #f0f0f0;
     padding: 20px;
     width: 30%;
+
+    -webkit-box-shadow: -1px 0px 8px 1px rgba(186,186,186,0.68);
+    -moz-box-shadow: -1px 0px 8px 1px rgba(186,186,186,0.68);
+    box-shadow: -1px 0px 8px 1px rgba(186,186,186,0.68);
 }
 
 .box-form input, label {
@@ -288,14 +294,113 @@ hr {
 input {
     width: 150px;
     height: 30px;
+    outline: none;
+}
+
+input:focus {
+    outline:none;
+}
+
+input[type=text],
+input[type="email"] {
+    padding:10px;
+    border:1px solid #b9b9b9;
+}
+
+label {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#message,
+#email,
+#add_det {
+    width: 100%;
+}
+
+#btn {
+    width:100%;
+    display:inline-block;
+    padding:0.7em 1.7em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color:#354b88;
+    box-shadow:inset 0 -0.6em 1em -0.35em #2727272b,inset 0 0.6em 2em -0.3em #ffffff26,inset 0 0 0em 0.05em #ffffff1f;
+    text-align:center;
+    position:relative;
+    margin: 15px 0;
+}
+
+.line {
+    width: 50%;
+    padding: 1px;
+    background: #686767;
+    margin: 0 auto;
+}
+
+#btn:active {
+    box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
 }
 
 .prime-name {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
+.info-more {
+    margin-top: 25px;
+}
+
+.info-more h4 {
+    margin-bottom: 20px;
+}
+
+.margin-space {
+    margin-bottom: 15px;
+}
+
+.needed {
+    color: crimson;
+}
+
+.fas, p {
+    display:inline;
+}
+
+.fas {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 2rem;
+}
+
+.icon-text {
+    margin-bottom: 10px;
+}
 
 .how-can-we-help {
     border: 1px solid #111;
+    width: 800px;
+    padding: 20px;
+    align-self: center;
+}
+
+.how-can-we-help h1 {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 3rem;
+}
+
+.give-margin h1 {
+    margin: 15px 0;
+}
+
+.give-margin {
+    margin: 25px 0;
 }

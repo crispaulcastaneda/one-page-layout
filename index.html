@@ -134,43 +134,70 @@
                     <form action="#" class="main-form" id="main-form">
                         <div class="prime-name">
                             <div class="inner-prime">
-                                <label class="fname" for="fname">Firstname</label>
+                                <label class="fname" for="fname">Firstname <span class="needed">*</span></label>
                                 <input type="text" name="fname" id="fname">
                             </div>
                             <div class="inner-prime">
-                                <label class="lname" for="lname">Lastname</label>
+                                <label class="lname" for="lname">Lastname <span class="needed">*</span></label>
                                 <input type="text" name="lname" id="lname">
                             </div>
                         </div>
 
-                        <label for="lname">Email</label>
-                        <input type="email" name="email" id="email">
+                        <div class="margin-space">
+                            <label for="lname">Email <span class="needed">*</span></label>
+                            <input type="email" name="email" id="email">
+                        </div>
 
-                        <label for="lname">Message</label>
-                        <input type="text" name="message" id="message">
+                        <div class="margin-space">
+                            <label for="lname">Message <span class="needed">*</span></label>
+                            <input type="text" name="message" id="message">
+                        </div>
 
-                        <label for="lname">Additional Details</label>
-                        <input type="text" name="add_det" id="add_det">
+                        <div class="margin-space">
+                            <label for="lname">Additional Details</label>
+                            <input type="text" name="add_det" id="add_det">
+                        </div>
 
-                        <button>Send Message</button>
+                        <button id="btn">Send Message</button>
 
-                        <h4>Contact Information</h4>
-                        <span></span><p>Address Here</p>
-                        <span></span><p>Number here</p>
-                        <span></span><p>email here</p>
+                        <div class="line"></div>
+
+                        <div class="info-more">
+                            <h4>Contact Information</h4>
+                            <div class="icon-text">
+                                <i class="fas fa-map-marked-alt"></i><p>Taguig City, Philippines 1632</p>
+                            </div>
+                            <div class="icon-text">
+                                <i class="fas fa-phone-square-alt"></i><p><a href="#">0919-999-9999</a></p>
+                            </div>
+                            <div class="icon-text">
+                                <i class="fas fa-envelope-open-text"></i><a href="mailto:sample@yahoo.com">sample@yahoo.com</a>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
 
             <div class="how-can-we-help">
-                <h1>How Can We Help?</h1>
-                <p>Please select a topic below related to you inquiry. If you don't find what you need, fill out our contact form.</p>
+                <div class="give-margin">
+                    <h1>How Can We Help?</h1>
+                    <p>Please select a topic below related to you inquiry. If you don't find what you need, fill out our contact form.</p>
+                </div>
 
-                <h2>Blocked Demo</h2>
+                <div class="blocked-demo give-margin">
+                    <h2>Blocked Demo</h2>
+                    <p>Request a demo one of our specialist.</p>
+                </div>
 
-                <h2>Get Inspired</h2>
+                <div class="get-inspired give-margin">
+                    <h2>Get Inspired</h2>
+                    <p>Discover in many ways in which our customers use Sleeknote.</p>
+                </div>
 
-                <h2>Become a Partner</h2>
+                <div class="become-a-partner give-margin">
+                    <h2>Become a Partner</h2>
+                    <p>Join our Partner Program and earn 25% recurring commissions.</p>
+                </div>
 
                 <span>Trusted By</span>
                 <!-- Field for the Companies -->
