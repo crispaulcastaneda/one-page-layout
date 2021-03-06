@@ -128,6 +128,9 @@
     <!-- This is for Contact -->
 
     <article class="contact-article" id="contact-article">
+        <div class="parallax">
+            <img src="image/contact/par.jpg" alt="parallax">
+        </div>
         <div class="inner-contact">
             <div class="form">
                 <div class="box-form">
@@ -149,13 +152,13 @@
                         </div>
 
                         <div class="margin-space">
-                            <label for="lname">Message <span class="needed">*</span></label>
+                            <label for="message">Message <span class="needed">*</span></label>
                             <input type="text" name="message" id="message">
                         </div>
 
                         <div class="margin-space">
-                            <label for="lname">Additional Details</label>
-                            <input type="text" name="add_det" id="add_det">
+                            <label for="add_det">Additional Details</label>
+                            <textarea name="add_det" id="add_det" cols="30" rows="10"></textarea>
                         </div>
 
                         <button id="btn">Send Message</button>
@@ -173,6 +176,13 @@
                             <div class="icon-text">
                                 <i class="fas fa-envelope-open-text"></i><a href="mailto:sample@yahoo.com">sample@yahoo.com</a>
                             </div>
+
+                            <div id="socmed">
+                                <p>Follow and get updated to our daily news.</p> <br>
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-twitter"></i>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -186,26 +196,40 @@
 
                 <div class="blocked-demo give-margin">
                     <h2>Blocked Demo</h2>
-                    <p>Request a demo one of our specialist.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, mollitia.</p>
+                    <div class="border-bot"></div>
                 </div>
 
                 <div class="get-inspired give-margin">
                     <h2>Get Inspired</h2>
-                    <p>Discover in many ways in which our customers use Sleeknote.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                    <div class="border-bot"></div>
                 </div>
 
-                <div class="become-a-partner give-margin">
+                <div class="become-a-partner give-margin ">
                     <h2>Become a Partner</h2>
-                    <p>Join our Partner Program and earn 25% recurring commissions.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque!</p>
+                    <div class="border-bot"></div>
                 </div>
 
-                <span>Trusted By</span>
-                <!-- Field for the Companies -->
+                <div class="trusted">
+                    <h2 class="trust-title">Trusted By</h2>
+                    <div class="customer-logo slider">
+                        <div class="slide"><img src="image/contact/trustee-one.png"></div>
+                        <div class="slide"><img src="image/contact/trustee-two.png"></div>
+                        <div class="slide"><img src="image/contact/trustee-three.png"></div>
+                        <div class="slide"><img src="image/contact/trustee-four.png"></div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </article>
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <footer id="footer">
+        <p>&copy; All Rights Reserved, 2021, Where The Cats Go</p>
+    </footer>
+
     <script src="js/app.js" defer></script>
 
 </body>
