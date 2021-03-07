@@ -1,0 +1,146 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+  /*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+  /*
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+
+}
+
+  /*
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+  /*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+
+}
+
+  /*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* Header */
+
+    #nav {
+      position: relative;
+    }
+
+    #nav #branding {
+      display: none;
+    }
+
+    #nav ul li {
+      font-size: .7rem;
+    }
+
+    .pure-images .text {
+      display: none;
+    }
+
+    /* ABOUT */
+    #main-about {
+      padding: 0;
+    }
+
+    .container {
+      height: 210px;
+    }
+
+    .container img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .articles {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .article-title h1 {
+      text-align: center;
+    }
+
+    .article-title h1::after {
+      width: 130px;
+      right: 50px;
+    }
+
+    /* SERVICES */
+    .services-content {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    /* CONTACT */
+    .inner-contact {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .form {
+      width: 100%;
+    }
+
+    .prime-name {
+      display: block;
+    }
+
+    .inner-prime input {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+
+    .how-can-we-help {
+      width: 100%;
+    }
+
+    .trusted {
+      width: 100%;
+    }
+
+    .slide img {
+      width: 50px;
+      height: 50px;
+    }
+
+}
