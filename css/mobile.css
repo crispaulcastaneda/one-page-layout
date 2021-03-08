@@ -27,7 +27,62 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    /* CSS */
+    /* Header */
+    #nav {
+      position: relative;
+    }
+
+    .pure-images .text {
+      display: none;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .articles {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .main-article {
+      max-height: 50vh;
+    }
+
+    /* SERVICES */
+    .status-header h2 {
+      display: none;
+    }
+
+    .services-missions h1 {
+      font-size: 2.8rem;
+    }
+
+    .services-missions p,
+    .left-side a {
+      color: #666565;
+    }
+
+    /* CONTACT */
+
+    .inner-contact {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .prime-name {
+      display: block;
+    }
+
+    .inner-prime input {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+
 
 }
 
@@ -38,8 +93,48 @@
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
-    /* CSS */
+    /* HEADER */
+    #nav {
+      position: relative;
+    }
 
+    .pure-images .text {
+      display: none;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    #about-article p {
+      color: #666565;
+      font-size: .9rem;
+      line-height: 18px;
+    }
+
+    /* SERVICES */
+
+    .services-missions p {
+      color: #666565;
+    }
+
+    .left-side a {
+      color: #666565;
+    }
+
+    /* CONTACT */
+    .form {
+      width: 100%;
+    }
+
+    .prime-name {
+      display: block;
+    }
+
+    .inner-prime input {
+      width: 100%;
+      margin-bottom: 8px;
+    }
 }
 
   /*
